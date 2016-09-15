@@ -1,0 +1,27 @@
+{
+"extends": [
+"airbnb",
+"ember"
+],
+
+"env": {
+"jquery": "true"
+},
+
+"rules": {
+"max-len": ["error", 95],
+"import/no-unresolved": 0,
+"no-magic-numbers": 0,
+"key-spacing": ["error", { "align": "value" }],
+"no-ternary": 0,
+"consistent-this": ["error", "self"],
+"no-multi-spaces": ["error", {
+"exceptions": {
+"VariableDeclarator": true,
+"ImportDeclaration": true
+}
+}],
+"indent": ["error", 2, {"SwitchCase": 1}],
+"no-param-reassign": ["error", {"props": false}]
+}
+}
